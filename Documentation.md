@@ -24,12 +24,16 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
 ### Menu individual do software:
   * <a href="#chat"> Chat privado </a>
   * <a href="#email"> Email interno individual </a>
+  * <a href="#block1"> Bloqueio de usuário espefícico </a>
   * <a href="#comp"> Compartilhamento de arquivos </a>
   
 ### Menu geral do software:
- * <a href="#email"> Email interno geral </a>
+ * <a href="#email2"> Email interno geral </a>
  * <a href="#conf"> Configurações da conta </a>
  * <a href="#infs"> Informações da conta </a>
+ * <a href="#block2"> Bloqueio de todos os usuários </a>
+ * <a href="#status"> Ativação/Desativação de Status </a>
+ * <a href="#desl"> Deslogamento da conta </a>
 
 <a name="util"><h1 align="center"> ---------- Utilização do Software ---------- </h1></a>
 
@@ -87,7 +91,16 @@ No caso do Email interno individual, cada usuário poderá enviar uma mensagem p
 
 <a href="#menu1">Voltar ao menu</a>
 
-### <a name="comp"> 3.3 Compartilhamento de arquivos </a>
+### <a name="block1"> 3.3 Bloqueio de usuário específico </a>
+
+--texto--
+
+![](/Imagens/Demo47.png)
+![](/Imagens/Demo48.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+### <a name="comp"> 3.4 Compartilhamento de arquivos </a>
 
 Na lista de usuários, cada usuário contém opções que poderão ser feitas apenas para ele em específico, uma delas é a opção com o símbolo de "arquivo" - esta opção é responsável por possibilitar uma escolha de um arquivo do computador e enviar para o usuário em questão, porém o usuário que receberá o arquivo também vai receber uma notificação perguntando se ele quer receber o arquivo, caso ele aceitar, o arquivo é recebido e a mensagem de confirmação é enviada para o usuário de origem. Não é possível enviar vários arquivos ao mesmo tempo.
 
@@ -99,47 +112,57 @@ Na lista de usuários, cada usuário contém opções que poderão ser feitas ap
 
 ## 4. Menu geral do software
   
-  <a name="mailpass"></a>
-  Na Interface inicial é inserido um email e uma senha pré-criada para testes. Logo após clicar em "Testar Conexão", o sistema faz uma autenticação de login do email e envia uma mensagem confirmando que o keylogger irá funcionar com sucesso. Isto é para testar se há uma conexão com a internet e se realmente o email irá receber informações do keylogger. 
-  
-![](/Imagens/GhostScan10.jpg)
-
-<a name="keyname"></a>
-Após testar a conexão, é inserido o nome do arquivo Keylogger que será gerado. É recomendável que utilize um nome menos chamativo, discreto e comum, algo que o alvo não irá suspeitar. Neste caso, como o arquivo gerado é um .jar(Arquivo Executável Java), é colocado o nome "Java Update" - já que o **Atualizador do Java**(Java Update) é bastante comum estar instalado em computadores que contém a JRE(Java Runtime Environment). Após definir o nome, o botão "Criar Keylogger" é clicado e uma mensagem de confirmação pergunta se realmente quer gerar o keylogger.
-
-![](/Imagens/GhostScan11.jpg)
-
-Após clicado em sim, o arquivo nomeado **Java Update.jar** é criado na pasta de instalação do GhostScan, este arquivo pode ser transportado, enviado e executado em qualquer computador que contém a JRE.
-
-![](/Imagens/GhostScan12.jpg)
-
-_Para mais informações, consulte a pasta **Imagens** no repositório do GitHub que contém imagens que demonstra o funcionamento completo de um keylogger e o funcionamento do **Gerador de vírus**._
+  ### <a name="email2"> 4.1 Email interno geral </a>
+   
+   --texto--
+   
+![](/Imagens/ChatServer5.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
-## <a name="inf"> 5. Informações do software </a>
-  
-No menu de **Informações** contém o nome do software, o tipo, a função/objetivo e outras informações. Na **atualização disponível** é nenhuma por que o software não utiliza um sistema de auto-atualização ainda. A versão atualmente é 1.0, futuramente na versão 2.0 o software executará em ambientes linux, windows & mac, como também funcionalidades de: envio de informações de geo-localização, conversão de .jar para .exe (executável windows) do keylogger, definição de ícone do executável & scanner de históricos de navegadores. Na parte de **Tutorial do programa**, existe um link **Clique aqui** que redireciona para a página oficial de Download do GhostScan no Site da BFTCorporations. Lembrando que apenas a versão Trial é disponibilizada para download.
+### <a name="conf"> 4.2 Configurações da conta </a>
 
-![](/Imagens/GhostScan13.jpg)
+--texto--
+
+![](/Imagens/ChatServer6.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+### <a name="infs"> 4.3 Informações da conta </a>
+
+--texto--
+
+![](/Imagens/ChatServer7.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+### <a name="block"> 4.4 Bloqueio de todos os usuários </a>
+
+--texto--
+
+![](/Imagens/ChatServer8.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+### <a name="status"> 4.5 Ativação/Desativação do status </a>
+
+--texto--
+
+![](/Imagens/ChatServer9.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+### <a name="desl"> 4.6 Deslogamento da conta </a>
+
+--texto--
+
+![](/Imagens/ChatServer10.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
 ## <a name="lim"> 6. Limitações do software </a>
 
-Apesar de tantas funcionalidades do GhostScan, o software contém algumas limitações e são elas:
-
-  * A opção de **Inicialização automática** só funciona em ambientes Windows. Em outras plataformas este processo deve ser feito
-  manualmente. Exemplo: Copiar o arquivo keylogger para a pasta de inicialização automática de programas.
-  * O GhostScan só gera o arquivo keylogger se existir a JDK(Java Development Kit) instalada. A JRE não é suficiente para fazer
-  funcionar o software, já que o sistema funciona como um "Programador" que gera programas.
-  * A versão 1.0 do GhostScan não contém uma **Atualização Disponível**, isto significa que se o computador, que esta executando  
-  o GhostScan, atualizar a JRE/JDK automaticamente, existem riscos de algumas funcionalidades do software não funcionar ou ter
-  possíveis bugs. Obs.: Isto será corrigido na versão 2.0.
-  * O GhostScan deve ser instalado em um diretório que tem permissão de escrita, já que o keylogger por padrão é gerado neste diretório. Se um determinado usuário instalar o software numa pasta que não tem permissão, simplesmente os arquivos keyloggers não serão gerados. Obs.: Isto também será corrigido na versão 2.0.
-  * Se o computador do alvo, que estiver executando o keylogger, não estiver conexão com a internet ou por algum motivo a
-  conexão falhar inesperadamente, o email configurado no keylogger para de receber informações até que a conexão do alvo volte
-  ao normal. Por isso existe a opção "Testar conexão".
+--texto--
   
   <a href="#menu1">Voltar ao menu</a>
   
