@@ -114,7 +114,7 @@ Na lista de usuários, cada usuário contém opções que poderão ser feitas ap
   
   ### <a name="email2"> 4.1 Email interno geral </a>
    
-   --texto--
+   Seguindo as opções do **Menu geral do software**, o símbolo de **carta** possibilita que os usuários possam enviar mensagens para todos os usuários ao mesmo tempo, ou visualizar mensagens de todos os usuários em um único painel, diferentemente do **Email interno individual** que as mensagens são de um usuário em específico.
    
 ![](/Imagens/ChatServer5.png)
 
@@ -122,47 +122,56 @@ Na lista de usuários, cada usuário contém opções que poderão ser feitas ap
 
 ### <a name="conf"> 4.2 Configurações da conta </a>
 
---texto--
+Nesta tela, aberta com a opção do símbolo de **engrenagem**, poderá alterar o usuário e a senha, exceto o **_nome_** que uma vez criado não pode ser alterado. No exemplo da imagem a senha era **user123** e está sendo alterado para **user001**, logo após uma mensagem de confirmação é exibida.
 
 ![](/Imagens/ChatServer6.png)
+![](/Imagens/ChatServer7.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
 ### <a name="infs"> 4.3 Informações da conta </a>
 
---texto--
-
-![](/Imagens/ChatServer7.png)
-
-<a href="#menu1">Voltar ao menu</a>
-
-### <a name="block"> 4.4 Bloqueio de todos os usuários </a>
-
---texto--
+Na tela de informações, clicada na opção com o símbolo de **i**, o usuário poderá ver todas as informações da sua conta: O ip do computador que possibilita a comunicação em rede, o nome da conta, o usuário da conta, a senha da conta e o status de online/offline.
 
 ![](/Imagens/ChatServer8.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
-### <a name="status"> 4.5 Ativação/Desativação do status </a>
+### <a name="block"> 4.4 Bloqueio de todos os usuários </a>
 
---texto--
+Quando é clicado no símbolo de **bloqueio vermelho**, uma mensagem de confirmação é exibida perguntando se o usuário realmente deseja ficar bloqueado para todos na rede, caso sim, nenhum usuário conseguirá executar nenhuma operação para ele, pois todas as opções do software são bloqueadas para aquele usuário.
 
 ![](/Imagens/ChatServer9.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
-### <a name="desl"> 4.6 Deslogamento da conta </a>
+### <a name="status"> 4.5 Ativação/Desativação do status </a>
 
---texto--
+No menu geral, também existe a opção de **bolinha verde** que indica que o usuário está online na rede, neste momento todos os usuários verão que este usuário está online, porém caso o usuário decida clicar nesta bolinha, a cor é mudado pra vermelho e todos os usuários verão que ele está **offline**, ou seja, uma forma de disfarçar quando se deseja que nenhum usuário o incomode.
 
 ![](/Imagens/ChatServer10.png)
+![](/Imagens/ChatServer11.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
-## <a name="lim"> 6. Limitações do software </a>
+### <a name="desl"> 4.6 Deslogamento da conta </a>
 
---texto--
+Para deslogar na conta basta clicar na última opção e é sempre indicado que desloque clicando nesta opção, assim o sistema sempre encarregará de fazer as configurações necessárias para mostrar a todos os usuários que ele está offline.
+
+![](/Imagens/ChatServer12.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+## <a name="lim"> 5. Limitações do software </a>
+
+Quanto a limitações, o software tem algumas restrições e são elas:
+
+* O usuário não pode modificar o **nome** da conta.
+* Cada computador na rede deve ter apenas **1 conta**.
+* O software não é capaz de enviar vários arquivos ao mesmo tempo.
+* É obrigatoriamente recomendado que cada computador na rede local tenha o **ip estático**.
+* A opção de **Alerta sonoro** ainda não foi desenvolvida, poderá ser implementada nas próximas versões.
+* É recomendado que o software seja instalado numa pasta com permissão de acesso a arquivos, fora isso o software não é capaz de executar suas operações.
   
   <a href="#menu1">Voltar ao menu</a>
   
