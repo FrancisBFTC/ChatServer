@@ -49,54 +49,21 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
   
   ![](/Imagens/ChatServer2.png)
   
-## 2. Seleção de Scanners
+## 2. Métodos de mensagens
 
-   ### <a name="scan1"> 2.1 Scanner de mouse </a>
+   ### <a name="mens1"> 2.1 Mensagens Temporárias (bate-papo) </a>
    
-   Com a opção de mouse selecionado, o keylogger gerado vai apenas monitorar as posições de mouse e as teclas pressionadas
-   pelo alvo. Já que o Scanner de monitor não consegue scanear o ponteiro do mouse, O Scanner do mouse vai enviar todas as 
-   informações em modo texto de posições clicadas pelo alvo. Cada região da tela que o usuário clicar, o keylogger irá enviar
-   informações com termos ao referentes aos cliques, Exemplo: Topo-esquerdo, Topo-direito, centro da tela, rodapé-esquerdo,etc...
+   Neste método o usuário escolhe um usuário para conversar. Ele clica no usuário específico e envia mensagens através de um campo onde ele pode inserir emoticons, as mensagens são enviadas em rede local por meio de Sockets, isso significa que se o respectivo usuário que ele estiver conversando esta offline, não será possível enviar uma mensagem.
    
-   ![](/Imagens/GhostScan2.jpg)
+   ![](/Imagens/ChatServer3.png)
    
    <a href="#menu1">Voltar ao menu</a>
    
-   ### <a name="scan2"> 2.2 Scanner de monitor </a>
+   ### <a name="mens2"> 2.2 Mensagens permanentes (Email interno) </a>
    
-   Com a opção de monitor selecionado, o keylogger vai enviar anexos do tamanho completo da tela do alvo para o email configurado. A cada intervalo de tempo ou cliques do mouse, o usuário receberá um novo email com a imagem Screenshot do monitor,
-   assim o usuário poderá saber com mais detalhes o que seu alvo está fazendo visualmente.
+   No ChatServer também contém a opção de "cartinha" para enviar uma mensagem permanente ao usuário, mesmo se ele estiver offline, ele receberá a mensagem mais tarde. O que também é chamado no programa de "Email eletrônico interno" pois funciona tal como um, onde os usuários poderão ver mensagens com assuntos a qualquer hora.
    
-   ![](/Imagens/GhostScan3.jpg)
-   
-   <a href="#menu1">Voltar ao menu</a>
-   
-   ### <a name="scan3"> 2.3 Scanner de IP público </a>
-   
-   Muito se sabe que IPs públicos ou **IPs Externos** revelam muita coisa sobre uma pessoa, **Exemplo:** _A localização do computador do alvo quando rastreado._ Com a opção de IP público selecionado, o keylogger enviará os números de IP público do alvo.
-   
-   ![](/Imagens/GhostScan4.jpg)
-   
-   <a href="#menu1">Voltar ao menu</a>
-   
-   ### <a name="scan4"> 2.4 Scanner de rede interna </a>
-   
-   As informações de rede interna é de grande valia pra quem conhece/trabalha na área. Com a opção de rede interna selecionada, o email configurado no keylogger recebe informações completas, como: Interfaces de redes, nomes das placas de rede instaladas, Números IPV4 e IPV6 (IPs internos), gateway, máscaras de sub-rede, broadcast, nome do computador completo e todas as redes conectadas ao computador do alvo.
-
-  ![](/Imagens/GhostScan5.jpg)
-  
-  <a href="#menu1">Voltar ao menu</a>
-  
-  ### <a name="scan5"> 2.5 Scanner de teclado </a>
-  
-  Por padrão, este funcionamento não precisa ser selecionado pois o próprio keylogger encarrega de enviar informações de teclas,
-  mesmo sem nada configurado, já que o nome _Keylogger_ deriva do significado **_Registro de teclas_**. As teclas pressionadas
-  enviadas para o email são concatenadas e a cada email recebido uma parte de uma frase digitada pelo alvo é mostrada, porém sempre exibindo e completando todo o restante da frase por cada email. Sabendo que as informações escaneadas são enviadas em um intervalo de tempo de 10 segundos, Então é recomendável que o usuário baixe as informações de emails relevantes e sempre procure 
-  fazer uma "limpeza" da sua caixa de entrada, pois a quantidade de informações recebidas em 1 dia é absurdamente grande. Este é um outro exemplo para usar um **Email de teste inutilizável** na configuração do keylogger.
-  
-  Neste exemplo da imagem é selecionado todas as opções, o keylogger escaneará e enviará pro email informações de: Posições clicadas do mouse, ScreenShot do monitor, IP público, configurações completas de rede interna e principalmente - As teclas pressionadas.
-  
-   ![](/Imagens/GhostScan6.jpg)
+   ![](/Imagens/ChatServer4.png)
    
    <a href="#menu1">Voltar ao menu</a>
   
