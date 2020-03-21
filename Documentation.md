@@ -35,19 +35,19 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
 
 ## 1. Cadastro no ChatServer
 
-### 1.1 Cadastrando a conta
+### <a name="cad"> 1.1 Cadastrando a conta </a>
 
   Esta é a tela de cadastro, onde os usuários de cada computador da rede irá inserir seu nome, usuário, senha e confirmação de senha. O usuário vai acessar sua conta através do usuário inserido e sua senha, porém o que vai aparecer para outros usuários é o seu **nome**. Os dados de cada conta que é cadastrada é enviada por meio de um servidor FTP para um servidor web, armazenando arquivos com o número de IP e com dados encriptados em criptografia AES-256 bits.
   
-  ![](/Imagens/GhostScan1.png)
+  ![](/Imagens/ChatServer1.png)
   
   <a href="#menuprincipal">Voltar ao menu principal</a>
   
-### 1.2 Logando na conta
+### <a name="log"> 1.2 Logando na conta </a>
 
    Após cadastrado, o usuário poderá inserir seus dados nos campos e logar na conta. Esta é a primeira tela que aparece no sistema e quando o usuário loga na sua conta, durante o processo, os dados gravados no servidor web são requisitados e descriptografados utilizando o mesmo método de criptografia com 2 chaves privadas, se os dados decriptados forem corretos, o usuário é redirecionado para a 2ª tela que contém todas as opções de manuseio do software.
   
-  ![](/Imagens/GhostScan1.png)
+  ![](/Imagens/ChatServer2.png)
   
 ## 2. Seleção de Scanners
 
