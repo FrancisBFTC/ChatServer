@@ -215,13 +215,13 @@ O ChatServer conta com algumas dependências a nível de usuário e de desenvolv
   
   ### <a name="env"> 2.1. Envio de dados para o servidor </a>
   
-
+  O ChatServer utiliza um servidor web hospedado para fazer comunicação de dados. Os dados de conta e emails eletrônicos internos são armazenados neste servidor. No servidor web também contém uma estrutura de pastas organizadas que armazenam arquivos, tais arquivos são baixados pelo software ao decorrer das operações efetuadas pelo usuário e são enviados novamente para o servidor.
   
   <a href="#menu2">Voltar ao menu</a>
   
   ### <a name="aut"> 2.2. Autenticação de dados criptografados </a>
   
-  --texto--
+  Alguns dos arquivos baixados, enviados e atualizados no servidor são os **arquivos de conta**, são esses arquivos que possibilitam fazer a **autenticação de login**, pois contém dados criptografados em AES-256 bits utilizando 2 chaves privadas. O software se encarrega se executar a descriptografia dos dados utilizando o mesmo método que criptografou, assim ele verifica se os dados inseridos no campo de login são os mesmos que os dados armazenados no arquivo, caso sim, o usuário é logado na sua conta do ChatServer, caso não, o software exibe uma mensagem de erro.
   
   <a href="#menu2">Voltar ao menu</a>
  
