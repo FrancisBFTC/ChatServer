@@ -35,7 +35,7 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
  * <a href="#status"> Ativação/Desativação de Status </a>
  * <a href="#desl"> Deslogamento da conta </a>
  
- ### * <a href="#lim"> Limitações do software </a>
+ * <h3> <a href="#lim"> Limitações do software </a> </h3>
 
 <a name="util"><h1 align="center"> ---------- Utilização do Software ---------- </h1></a>
 
