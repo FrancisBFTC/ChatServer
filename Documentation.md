@@ -41,13 +41,15 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
   
   ![](/Imagens/ChatServer1.png)
   
-  <a href="#menuprincipal">Voltar ao menu principal</a>
+  <a href="#menu1"> Voltar ao menu </a>
   
 ### <a name="log"> 1.2 Logando na conta </a>
 
    Após cadastrado, o usuário poderá inserir seus dados nos campos e logar na conta. Esta é a primeira tela que aparece no sistema e quando o usuário loga na sua conta, durante o processo, os dados gravados no servidor web são requisitados e descriptografados utilizando o mesmo método de criptografia com 2 chaves privadas, se os dados decriptados forem corretos, o usuário é redirecionado para a 2ª tela que contém todas as opções de manuseio do software.
   
   ![](/Imagens/ChatServer2.png)
+  
+  <a href="#menu1">Voltar ao menu</a>
   
 ## 2. Métodos de mensagens
 
@@ -67,39 +69,35 @@ O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede
    
    <a href="#menu1">Voltar ao menu</a>
   
-## 3. Seleção de sistemas de camuflagem
+## 3. Menu individual do software
 
-### <a name="init"> 3.1 Inicialização automática </a>
+### <a name="chat"> 3.1 Chat privado </a>
 
-Nesta opção, o sistema do keylogger se responsabiliza em se auto-copiar para a pasta descrito na variável de ambiente **%AppData%** cujo conteúdo é "C:\Users\xxxx\AppData\Roaming\", onde "xxxx" seria a pasta de usuário do computador, o sistema faz uma concatenação com os próximos diretórios, ficando: "C:\Users\xxxx\AppData\Roaming\Microsoft\Windows\Start Menu\Programs". Neste diretório é aonde fica todos os programas que executa automaticamente quando o computador é ligado, então se o keylogger é
-copiado para este diretório significa que o keylogger vai executar automaticamente toda vez que o computador ligar. 
+No chat privado os usuários poderão conversar apenas entre eles, ou seja, aqueles que estiverem online poderão conversar de forma privada. No chat é possível enviar palavras formatadas, como: negrito, itálico e sublinhado. Também é possível enviar figurinhas de emotions. Os usuários recebem as mensagens instântaneamente por rede local, isto enquanto o software está aberto. O usuário poderá fechar a janela de chat e abrir quando quiser que as mensagens ainda estarão lá, porém a partir do momento que ele fecha o software, o painel de mensagens é zerada dando início a novos textos - isso significa que são **_mensagens temporárias_**.
 
-**Observações:** _Percebemos que este diretório é pertencente a plataforma **Windows**. Isso significa que se for monitorar uma pessoa que está utilizando uma plataforma linux, a opção de **Inicialização Automática** não irá funcionar. Porém o processo de copiar para a pasta de inicialização pode ser feita manualmente._
-
-**Detalhes:** _O software foi desenvolvido para ambientes Windows, mesmo que o GhostScan tenha funcionalidades que também executa no Linux. Futuramente o código fonte será adaptado para executar todas as funcionalidades em quaisquer plataformas._
-
- ![](/Imagens/GhostScan7.jpg)
+ ![](/Imagens/Demo12.png)
  
  <a href="#menu1">Voltar ao menu</a>
  
-### <a name="ocult"> 3.2 Ocultação de arquivo </a>
+### <a name="email"> 3.2 Email interno individual </a>
 
-Este é um processo que oculta o keylogger após executado, quando esta opção é selecionada, o modo invisível é ativado o que significa que no local que for executado o keylogger, o sistema executa comandos para fazer sumir o arquivo. Nem mesmo ativando
-a opção de "Mostrar arquivos ocultos" do painel de controle irá achar o keylogger, pois o keylogger utiliza um comando específico do sistema para ocultar arquivos, mesmo que eles ainda continuam executando na máquina do alvo.
+No caso do Email interno individual, cada usuário poderá enviar uma mensagem para um usuário específico, ou seja, clicando na opção de "cartinha" no menu do usuário, apenas aquele usuário verá as mensagens que são enviadas. O usuário tanto que pode escrever uma mensagem definindo um assunto quanto que pode verificar as mensagens recebidas em ordens de um usuário específico, as mensagens mais recentes são organizadas no topo, dando a possibilidade de excluí-las a hora que quiser - isso significa que são **_mensagens permanentes_**.
 
-![](/Imagens/GhostScan8.jpg)
-
-<a href="#menu1">Voltar ao menu</a>
-
-### <a name="prog"> 3.3 Programação de tempo de execução </a>
-
-Na parte de "Tempo de execução" existe uma informação que mostra a data atual e um campo de texto para inserir uma data. A data que é inserida é referente ao dia e mês que o keylogger irá ser finalizado, ou seja, parar de executar. O sistema identifica a data atual e faz uma comparação com a data inserida a cada dia que o keylogger é iniciado, quando a data atual é igual a data inserida, o sistema finaliza a tarefa relacionada ao keylogger.Isto é quando o usuário decide monitorar seu alvo durante um tempo específico.
-
-![](/Imagens/GhostScan9.jpg)
+![](/Imagens/Demo27.png)
 
 <a href="#menu1">Voltar ao menu</a>
 
-## 4. Seleção de Gerador do Keylogger
+### <a name="comp"> 3.3 Compartilhamento de arquivos </a>
+
+Na lista de usuários, cada usuário contém opções que poderão ser feitas apenas para ele em específico, uma delas é a opção com o símbolo de "arquivo" - esta opção é responsável por possibilitar uma escolha de um arquivo do computador e enviar para o usuário em questão, porém o usuário que receberá o arquivo também vai receber uma notificação perguntando se ele quer receber o arquivo, caso ele aceitar, o arquivo é recebido e a mensagem de confirmação é enviada para o usuário de origem. Não é possível enviar vários arquivos ao mesmo tempo.
+
+![](/Imagens/Demo35.png)
+![](/Imagens/Demo36.png)
+![](/Imagens/Demo37.png)
+
+<a href="#menu1">Voltar ao menu</a>
+
+## 4. Menu geral do software
   
   <a name="mailpass"></a>
   Na Interface inicial é inserido um email e uma senha pré-criada para testes. Logo após clicar em "Testar Conexão", o sistema faz uma autenticação de login do email e envia uma mensagem confirmando que o keylogger irá funcionar com sucesso. Isto é para testar se há uma conexão com a internet e se realmente o email irá receber informações do keylogger. 
