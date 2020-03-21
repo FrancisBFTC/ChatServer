@@ -1,7 +1,7 @@
 **********************************************************************************
-<h1 align="center"><a name="top">Documentação do GhostScan</a></h1>
+<h1 align="center"><a name="top">Documentação do ChatServer</a></h1>
 
-Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionalidades atuais do software, descrições gerais e técnicas. Se optar por ler um assunto em específico abaixo contém um menu de atalho, se não, continue rolando para ler toda a documentação:
+Bem vindo a documentação do ChatServer! aqui é demonstrado todas as funcionalidades atuais do software, descrições gerais e técnicas. Se optar por ler um assunto em específico abaixo contém um menu de atalho, se não, continue rolando para ler toda a documentação:
   
   <a name="menuprincipal"></a>
   * <a href="#desc1"> Descrições Gerais </a>
@@ -10,30 +10,26 @@ Bem vindo a documentação do GhostScan! aqui é demonstrado todas as funcionali
  
 <a name="desc1"><h1 align="center"> ---------- Descrições Gerais ---------- </h1></a>
 
-O GhostScan é um software/spyware cuja finalidade é gerar arquivos que monitoram as informações de pessoas. O software funciona tal como um programador - ele cria programas chamado **Keylogger** que monitora indivíduos baseando em configurações do usuário. As configurações do usuário são: 
+O ChatServer é um software de compartilhamentos de arquivos e bate-papo em rede interna local. Com o software poderá se cadastrar para criar o usuário, enviar arquivos de um computador para outro mediante a autorização do usuário, enviar mensagens temporárias (bate-papo) e mensagens permanentes (Email interno). Logo abaixo contém o menu de navegação demonstrando as funcionalidades do ChatServer:
 
 <a name="menu1"></a>
-### Seleção de Scanners:
-  * <a href="#scan1"> Scanner de mouse </a> 
-  * <a href="#scan2"> Scanner de monitor </a> 
-  * <a href="#scan3"> Scanner de IP público </a>
-  * <a href="#scan4"> Scanner de rede interna completa </a>
+### Cadastro no ChatServer:
+  * <a href="#cad"> Cadastrando a conta </a> 
+  * <a href="#log"> Logando na conta</a> 
   
-### Seleção de sistemas de camuflagem:
-  * <a href="#init"> Inicialização automática </a>
-  * <a href="#ocult"> Ocultação de arquivo </a>
-  * <a href="#prog"> Programação de tempo de execução </a>
+### Métodos de mensagens:
+  * <a href="#mens1"> Mensagens Temporárias (bate-papo) </a>
+  * <a href="#mens2"> Mensagens permanentes (Email interno) </a>
   
-### Seleção de Gerador do Keylogger:
-  * <a href="#mailpass"> Inserção de email </a>
-  * <a href="#mailpass"> Inserção de senha </a>
-  * <a href="#keyname"> Criação de nome do KeyLogger </a>
+### Menu individual do software:
+  * <a href="#chat"> Chat privado </a>
+  * <a href="#email"> Email interno individual </a>
+  * <a href="#comp"> Compartilhamento de arquivos </a>
   
-### Informações relevantes
- * <a href="#inf"> Informações do software </a>
- * <a href="#lim"> Limitações do software </a>
-
-_**Observações:** Por padrão, o software gera o keylogger com <a href="#scan5"> scanner de teclado </a>, mesmo se o usuário não configurar nada._
+### Menu geral do software:
+ * <a href="#email"> Email interno geral </a>
+ * <a href="#conf"> Configurações da conta </a>
+ * <a href="#infs"> Informações da conta </a>
 
 <a name="util"><h1 align="center"> ---------- Utilização do Software ---------- </h1></a>
 
