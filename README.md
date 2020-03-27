@@ -3,5 +3,3 @@ O ChatServer ou "Servidor de Chat" é um software para bate-papo e compartilhame
 
 [Clique para fazer Download do Instalador](https://github.com/FrancisBFTC/ChatServer/raw/master/ChatServer.exe)
 
- <input type="submit" value="Download" style="background-color:green;">
-
